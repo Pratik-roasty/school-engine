@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #CB75CF;
+    color: white;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  /* search bar */
+  .search {
+    flex-grow: 0.6;
+    margin: 0 20px;
+  }
+  
+  .search form {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  .search input[type="text"] {
+    flex-grow: 1;
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+  }
+  
+  .search button {
+    border: none;
+    background-color: #9D1B9F;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* back button */
+  .go-back-button {
+    display: inline-block;
+    margin-top: 20px; 
+    padding: 10px; 
+    margin: 15px;
+    background-color: #9D1B9F;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .go-back-button:hover {
+    background-color: black;
+  }
+  /* school details container */
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    padding: 0px; 
+    margin: 20px;
+    margin-top: 50px;
+  }
+  
+  .profile {
+    background-color: white;
+    padding: 50px; 
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .profile-header {
+    position: relative;
+  }
+  
+  .profile-header-cover {
+    width: 35vw;
+    height: 45vh;
+    background-color: gray;
+    position: relative;
+  }
+  
+  .profile-header-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile-header-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(20%, 20%);
+  }
+  
+  .profile-header-info img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 150px;
+    border: 5px solid white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-left: 0px;
+  }
+  
+  .profile-body {
+    margin-top: -300px;
+  }
+  .profile-body h1{
+    margin-left: 38rem;
+    margin-top: 0px;
+   /* color: #9D1B9F;*/
+  }
+  .profile-body h3 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-left: 32rem;
+  }
+  .profile-body p{
+    width: 60%;
+    margin-left: 36rem;
+    justify-content: flex-start;
+  }
+  .profile-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .profile-body li {
+    margin-bottom: 0px;
+    margin-left: 32rem;
+    justify-content: flex-start;
+  }
+  
+  /* apply button */
+  .container2 {
+    position: relative;
+  }
+  
+  h2 {
+    font-size:50px;
+    font-style: bold;
+    color: #9D1B9F;
+  }
+  
+  .apply-button {
+    bottom: 20px;
+    margin-left: -120px;
+    transform: translateX(50%);
+    padding:10px;
+    background-color: #9D1B9F;
+    font-size:20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .apply-button:hover {
+    background-color: black;
+  }
+  /* footer */
+  footer {
+    background: #CB75CF;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    position: absolute;
+    /*bottom: 0;*/
+    width: 100%;
+    height: 60px; 
+    color: #fff;
+    padding: 10px;
+    
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  footer p {
+    margin-top: 5px;
+    font-size: 14px;
+  }

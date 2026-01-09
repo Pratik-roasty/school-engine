@@ -1,0 +1,23 @@
+{
+  "name": "school-engine",
+  "version": "1.0.0",
+  "description": "This is a website which gives parents an option to search best school for their child.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "G20 Capgemini",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.0.2",
+    "passport": "^0.6.0",
+    "passport-local-mongoose": "^8.0.0"
+  }
+}

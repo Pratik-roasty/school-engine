@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+/* center container in the middle */
+html {
+  display: grid;
+  min-height: 100%;
+}
+
+body {
+  display: grid;
+  font-family:  'Lato', sans-serif;
+  text-transform: uppercase;
+  
+}
+
+.cardcontainer {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 500px;
+  height: 260px;
+  background: #cd94d1;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px black;
+}
+p{
+    font-size: 0.6rem;
+    color: #d8b4f7;
+    letter-spacing: 1px;
+}
+h1 {
+
+  font-size: 1.3em;
+  color: #151515;
+  margin-top: -5px;
+  display: flex;
+ 
+}
+
+img {
+  width: 170px;
+  margin-top: 50px;
+  height: 140px;
+}
+
+.card {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 10%;
+  left: 60%;
+}
+
+.desc {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-top: 40px;
+  color: #0d0d0d;
+  font-size: 1em;
+  line-height: 1.6em;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+button {
+  background: darken(#9D1B9F, 30%);
+  padding: 10px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  margin: -1px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #0c0c0c;
+  cursor: pointer;
+  margin-top: 26px;
+}
+.btn {
+  width: 72%;
+}

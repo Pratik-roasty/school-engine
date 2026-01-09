@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title><%=school.SchoolName%></title>
+	<link rel="stylesheet" href="css/schoolPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<header>
+	<div class="logo">
+	    <img src="images/logo.png" alt="Dream School Logo">
+          <h1>SCHOOL ENGINE</h1>
+	</div>
+	<div class="search">
+	  <form action="/searchHome" method="post">
+		<input type="text" name="search" placeholder= "Oops ! Want to search again ?">
+		<button type="submit">Go</button>
+	  </form>
+	</div>
+  </header>
+
+  <div class="container1">
+	<a href="/searchHome" class="go-back-button">Go Back</a>
+  </div>
+  
+<body>
+	<div class="container">
+		<div class="profile">
+			<div class="profile-header">
+				<div class="profile-header-cover">
+					<img src="https://media.istockphoto.com/id/1020211678/photo/typical-american-school-building-exterior.jpg?s=612x612&w=0&k=20&c=o21FkhAdwF9sQ_ysZ0SBKZyqu5UPtKsS-8bVM-Zg3CI=" alt="Background photo">
+				</div>
+				<div class="profile-header-info">
+					<img src="https://media.istockphoto.com/id/1146918735/photo/students-praying-in-school-campus.jpg?s=612x612&w=0&k=20&c=1eIFNhLX3iRknr1DjObxRWMP4g49UojE4W4W7RizNPQ=" alt="Profile photo">
+				</div>
+			</div>
+			<div class="profile-body">
+				<h1><%=school.SchoolName%></h1>
+				<p>Carmel Convent School was founded in 1970 for the benefit of the children of jayanagar and the neighbouring extensions. The school is recognized by the Department of Oublic Instruction, Karnataka State. The school year begins in June.
+                    Today, our school has a strength of around 754 students, a team of well qualified, efficient, experienced and dedicated staff of 20 teachers, 6 non-teaching staff working under the able guidance of the headmistress Sister Prima Shirine D'Cunha, an efficient administrator committed to her mission.<br>
+                    The Goal:
+                    <br>We draw inspiration from Christ who willed the total development of every person, and also from our foundress, Mother Veronica. Our aim is to form integrated women:<br>
+
+<br>- Capable of responding to life's challenges with joy and deep faith in God,
+<br>- Guided by right values in their choices and decisions,
+<br>- Enriched by our cultural heritage,
+<br>- Committed to the service of our people.
+                </p>
+				<h3>ADDRESS</h3>
+				<ul>
+					<li>Carmel Convent High School East End Main Road,</li>
+					<li>4 'T' Block, Jayanagar, Bangalore - 560041. INDIA</li>
+				</ul>
+				<h3>MORE DETAILS</h3>
+				<ul>
+					<li>Contact No : +91-80-26656599
+                        <br>Email : carmeljnr@gmail.com</li>
+				</ul>
+				<div class="container2">
+					<h2>Am I your dream school ?</h2>
+					<button class="apply-button">Apply Now</button>
+				  </div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><p>&copy; 2026  Pratik Yadav. &copy All rights reserved.</p></li>
+        </ul>
+        </footer>
+</body>
+
+</html>
